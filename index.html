@@ -6,84 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chinerey Ukwu | Cybersecurity Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
 </head>
 
 <body>
 
     <header>
         <h1>Chinerey Ukwu</h1>
-<p>Cybersecurity Analyst | SOC • Endpoint Detection • Vulnerability Management</p>
+        <p>Cybersecurity Analyst | SOC • Endpoint Detection • Vulnerability Management</p>
         <p>
             <a href="https://github.com/uchinerey-gift" target="_blank" rel="noopener">GitHub</a> |
-            <a href="https://www.linkedin.com/in/chinerey-u/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/chinerey-u/" target="_blank" rel="noopener">LinkedIn</a> |
+            <a href="assets/Chinerey-Ukwu-Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
         </p>
     </header>
 
     <main>
 
+        <!-- ABOUT -->
         <section>
             <h2>About</h2>
             <p>
                 Cybersecurity professional with hands-on experience in vulnerability
                 management and endpoint threat hunting. Focused on validating security
                 telemetry, investigating suspicious activity, and documenting findings
-                in a SOC-relevant manner.
+                using SOC-relevant workflows.
             </p>
         </section>
 
+        <!-- SKILLS -->
         <section>
             <h2>Skills</h2>
             <ul>
                 <li>Endpoint threat hunting (Microsoft Defender for Endpoint Advanced Hunting)</li>
-                <li>KQL: filtering, correlation, timeline analysis</li>
+                <li>Kusto Query Language (KQL): filtering, correlation, timeline analysis</li>
                 <li>PowerShell: activity simulation and investigation support</li>
-                <li>Vulnerability scanning: credentialed vs unauthenticated methodology (Tenable)</li>
+                <li>Vulnerability scanning: credentialed vs unauthenticated (Tenable)</li>
                 <li>Cloud fundamentals: Azure VM provisioning and basic security configuration</li>
             </ul>
         </section>
 
+        <!-- PROJECTS -->
         <section>
             <h2>Projects</h2>
 
+            <!-- PROJECT 1 -->
             <div class="project">
                 <h3>Microsoft Defender Advanced Hunting & PowerShell Telemetry Lab</h3>
-            <p>
-                Endpoint threat-hunting lab demonstrating file, process, and network
-                telemetry generation with PowerShell and investigation using KQL in
-                Microsoft Defender Advanced Hunting.
-            </p>
-            
-            <p><strong>Tools:</strong> Microsoft Defender for Endpoint, KQL, PowerShell</p>
-            
-            <ul>
-                <li>Generated file, process, and network telemetry and validated visibility in Defender.</li>
-                <li>Used KQL to trace activity across DeviceFileEvents, DeviceProcessEvents, and DeviceNetworkEvents.</li>
-            </ul>
-            
-            <p>
-                <a href="https://github.com/uchinerey-gift/mde-advanced-hunting-telemetry-lab" target="_blank" rel="noopener">
-                    View on GitHub
-                </a>
-            </p>
+
+                <p>
+                    Endpoint threat-hunting lab demonstrating file, process, and network
+                    telemetry generation with PowerShell and investigation using KQL in
+                    Microsoft Defender Advanced Hunting.
+                </p>
+
+                <p><strong>Tools:</strong> Microsoft Defender for Endpoint, KQL, PowerShell</p>
+
+                <ul>
+                    <li>Generated file, process, and network telemetry and validated visibility in Defender.</li>
+                    <li>Used KQL to trace activity across DeviceFileEvents, DeviceProcessEvents, and
+                        DeviceNetworkEvents.</li>
+                </ul>
+
+                <p>
+                    <a href="https://github.com/uchinerey-gift/mde-advanced-hunting-telemetry-lab" target="_blank"
+                        rel="noopener">
+                        View on GitHub
+                    </a>
                 </p>
             </div>
 
+            <!-- PROJECT 2 -->
             <div class="project">
                 <h3>Linux Vulnerability Scanning — Credentialed vs Unauthenticated</h3>
-            
+
                 <p>
                     Vulnerability management project comparing unauthenticated and
                     credentialed scanning against a Linux VM to demonstrate visibility
                     and accuracy differences.
                 </p>
-            
+
                 <p><strong>Tools:</strong> Azure, Ubuntu Linux, Tenable</p>
-            
+
                 <ul>
                     <li>Compared unauthenticated vs credentialed scan results to show visibility differences.</li>
                     <li>Documented findings with evidence and remediation context.</li>
                 </ul>
-            
+
                 <p>
                     <a href="https://github.com/uchinerey-gift/linux-vulnerability-scan" target="_blank" rel="noopener">
                         View on GitHub
@@ -93,10 +102,16 @@
 
         </section>
 
+        <!-- CONTACT -->
+        <section>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:uchinerey@gmail.com">uchinerey@gmail.com</a></p>
+        </section>
+
     </main>
 
     <footer>
-        <p>© 2026 Chinerey Ukwu</p>
+        <p>© 2026 Chinerey Ukwu • Last updated: 2026-01-08</p>
     </footer>
 
 </body>
